@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body{
+  background-color: rgb(145, 145, 145);
+}
+nav{
+
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+li{
+  font-size: 40px;
+}
+.home-div{
+  padding: 35px 60px;
+  background-color: rgb(192, 241, 255);
+}
+.h1-hotels{
+  text-align: center;
+  font-size: 39px;
+}
+.basket-icon{
+  font-size: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+/* .shops-table{
+  width: 60%;
+  min-width: 350px;
+  margin: 20px auto;
+}
+.shops-table, .shops-table th, .shops-table td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+} */
